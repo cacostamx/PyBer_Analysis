@@ -4,7 +4,7 @@
 
 Management asked to analyze ride data and city data to analyze how the rides in each city differentiated according to several metrics, including the type of city (Urban, Suburban and Rural), the number of drivers, the average number of rides and the average number of fares.
 
-For this final assigment a summary DataFrame of the ride-sharing data by city type was created and, using Pandas and Matplotlib, a multiple-line graph that shows the total weekly fares for each city type.
+For this final assingment a summary DataFrame of the ride-sharing data by city type was created and, using Pandas and Matplotlib, a multiple-line graph that shows the total weekly fares for each city type.
 
 
 ### Resources
@@ -34,7 +34,7 @@ For this final assigment a summary DataFrame of the ride-sharing data by city ty
     
 #### Per city type
 
-- From the merged dataframe, we calculated metrics per city type ('Rural', 'Suburban', 'Urban') using the groupby operation which involves some combination of splitting the object, applying a function, and combining the results.
+- From the merged dataframe, we calculated metrics per city type ('Rural', 'Suburban', 'Urban') using the *groupby()* operation which involves some combination of splitting the object, applying a function, and combining the results.
     
     Example: Get the total rides for each city type 
     ```python
@@ -59,7 +59,7 @@ For this final assigment a summary DataFrame of the ride-sharing data by city ty
     
         ![total_fares_series](/analysis/PyBer_fare_summary.png)
 
-    - We can deduce from the statistics for this period, that all cities have their fares within a reasonable "stable" amount, atlhough all three city types present a peak in the last week of february.  Also Urban cities remain above average during april.
+    - We can deduce from the statistics for this period, that all cities have their fares within a reasonable "stable" amount, although all three city types present a peak in the last week of February.  Also Urban cities remain above average during April.
 
         |Stat   | Rural |Suburban|Urban  |
         |:------|------:|-------:|------:|
@@ -75,7 +75,4 @@ Based on the results, we've seen that there are evident differences between city
 
    - There only 18 Urban cities, compared to Urban (66) and Suburban (36). Therefore, there should be a campaign to reach out more Urban cities.
    - In order to increase the number of rides in Rural and Suburban cities, the number of riders needs to increase.  If we look at the number of drivers per city type, Rural have an average of only 4.3 drivers per city, 13.6 per Suburban city and 36.4 drivers per Urban City.
-   - Regarding fares, Rural and Suburban drivers show a higher fare than Urban cities, probably because of two factors: distances may be larger and supply is more limited (less competition). There should be an analysis regarding trip duration to determine the most important factor.
-
-    
-    
+   - Regarding fares, Rural and Suburban drivers show a higher fare than Urban cities, probably because of two factors: distances may be larger, and supply is more limited (less competition). There should be an analysis regarding trip duration to determine the most important factor.
