@@ -73,6 +73,6 @@ For this final assingment a summary DataFrame of the ride-sharing data by city t
 
 Based on the results, we've seen that there are evident differences between city types.
 
-   - There only 18 Urban cities, compared to Urban (66) and Suburban (36). Therefore, there should be a campaign to reach out more Urban cities.
+   - There only 18 Rural cities, compared to Urban (66) and Suburban (36). Therefore, there should be a campaign to reach out more Urban cities.
    - In order to increase the number of rides in Rural and Suburban cities, the number of riders needs to increase.  If we look at the number of drivers per city type, Rural have an average of only 4.3 drivers per city, 13.6 per Suburban city and 36.4 drivers per Urban City.
    - Regarding fares, Rural and Suburban drivers show a higher fare than Urban cities, probably because of two factors: distances may be larger, and supply is more limited (less competition). There should be an analysis regarding trip duration to determine the most important factor.
